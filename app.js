@@ -93,4 +93,4 @@ table.addEventListener("click", (e) => {
     LS.sil(e);
   }
 });
-LS.bak();
+addEventListener("DOMContentLoaded", LS.bak());
