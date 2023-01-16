@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Book List App</title>
+    <script
+      src="https://kit.fontawesome.com/c93c1db267.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Book List</h1>
+        <span><i class="fa-solid fa-book"></i></span>
+      </header>
+
+      <form id="bookform">
+        <div class="form-group">
+          <label for="">Title: </label>
+          <input type="text" id="title" />
+        </div>
+
+        <div class="form-group">
+          <label for="">Author: </label>
+          <input type="text" id="author" />
+        </div>
+        <input class="add-btn" type="button" value="Add item" />
+      </form>
+      <div class="table">
+        <div class="table-title">
+          <p>Titles</p>
+          <p>Authors</p>
+        </div>
+        <div class="table-item">
+          <p>Asdalksjdsa</p>
+          <p>sadlkjaslkdjs</p>
+          <button class="delete-btn"><span>Delete</span></button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap");
+
+body {
+  background-color: #a27b5c;
+  color: #3f4e4f;
+}
+.container {
+  margin: auto;
+  min-width: 600px;
+  max-width: 800px;
+  min-height: 800px;
+  width: 80%;
+  background-color: #dcd7c9;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25rem 0 1rem;
+  font-family: "Noto Serif JP", serif;
+}
+header h1 {
+  font-weight: 900;
+  color: #a27b5c;
+}
+header span i {
+  font-size: 30px;
+  font-weight: bold;
+}
+#bookform {
+  padding: 0 175px 20px 20px;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  border-bottom: 2px solid #a27b5c;
+}
+.table * {
+  display: grid;
+  padding: 0 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.delete-btn * {
+  pointer-events: none;
+}
+.delete-btn {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: 3px solid rgba(0, 0, 0, 0.363);
+  border-radius: 5px;
+}
+.add-btn {
+  width: 100px;
+  height: 30px;
+}
+.table-title {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #a27b5c;
+}
+.table-item {
+  border-bottom: 1px solid #a27b5c;
+}
+input {
+  width: 100px;
+  height: 20px;
+  background-color: white;
+  border: 3px solid rgba(0, 0, 0, 0.363);
+  border-radius: 5px;
+}
