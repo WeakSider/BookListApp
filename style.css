@@ -34,7 +34,7 @@ header span i {
   justify-content: space-between;
   border-bottom: 2px solid #a27b5c;
 }
-.table * {
+.table div{
   display: grid;
   padding: 0 20px;
   grid-template-columns: 1fr 1fr 1fr;

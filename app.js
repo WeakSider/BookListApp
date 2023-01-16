@@ -84,8 +84,6 @@ addBtn.addEventListener("click", (e) => {
   if (check == true) {
     LS.ekle(kitap);
     UI.addBook(kitap);
-  } else {
-    console.log("olmadı");
   }
 });
 
